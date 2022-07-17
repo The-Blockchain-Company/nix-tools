@@ -1,0 +1,26 @@
+{
+    "haskell.nix": {
+        "branch": "master",
+        "description": "Alternative Haskell Infrastructure for Nixpkgs",
+        "homepage": "https://the-blockchain-company.github.io/haskell.nix",
+        "owner": "the-blockchain-company",
+        "repo": "haskell.nix",
+        "rev": "34680f45227f639e57b100f12fe5934946b19c33",
+        "sha256": "153a0yzi0qnpfndmg76082kkh7j80gqjppk4c0iz8rrd3aqrbpzv",
+        "type": "tarball",
+        "url": "https://github.com/the-blockchain-company/haskell.nix/archive/34680f45227f639e57b100f12fe5934946b19c33.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "f73bf8d584148677b01859677a63191c31911eae",
+        "sha256": "0jlmrx633jvqrqlyhlzpvdrnim128gc81q5psz2lpp2af8p8q9qs",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/f73bf8d584148677b01859677a63191c31911eae.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
