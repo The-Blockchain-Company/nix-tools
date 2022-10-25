@@ -4,8 +4,8 @@ synopsis:            cabal/stack to nix translation tools
 description:         A set of tools to aid in trating stack and cabal projects into nix expressions.
 license:             BSD3
 license-file:        LICENSE
-author:              Moritz Angermann
-maintainer:          moritz.angermann@gmail.com
+author:              Robert Mourey Jr
+maintainer:          rmourey_jr@blockchain-company.io
 -- copyright:
 category:            Distribution
 build-type:          Simple
@@ -29,7 +29,7 @@ library
                      , Stack2nix.Project
                      , Stack2nix.Stack
   build-depends:       base >=4 && <4.15
-                     , Cabal >= 3.6.2 && <3.7
+                     , Cabal >= 3.4.0 && <3.7
                      , aeson >= 2.0.0.0
                      , aeson-pretty
                      , base16-bytestring
