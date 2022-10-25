@@ -6,9 +6,9 @@ allow-newer: hackage-db:Cabal, hpack:Cabal
 
 source-repository-package
     type: git
-    location: https://github.com/michaelpj/hackage-db.git
-    tag: f3b9240212b036391871e4ea09891e91efcea7a1
-    --sha256: sha256-n0ATmkwtR68E2FuZK3QIQgZirVmWbd21vIQmzhGKsRw=
+    location: https://github.com/the-blockchain-company/hackage-db.git
+    tag: 84eef5a78cc848dfddbb7db44fb4b449543e5bf5
+    --sha256: sha256-AeN8ZZIdkPwarhQbnN8063TB4Wz2LDFjhu0nNbF2hPs=
 
 -- hnix requires hnix-store-core < 0.2, however hnix-store-core-0.1 breaks
 -- plan construction.
