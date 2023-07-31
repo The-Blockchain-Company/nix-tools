@@ -1,6 +1,6 @@
 builtins.mapAttrs (k: _v:
   let
-    pkgs = import (builtins.fetchTarball "https://github.com/the-blockchain-company/haskell.nix/archive/34680f45227f639e57b100f12fe5934946b19c33.tar.gz") {
+    pkgs = import (builtins.fetchTarball "https://github.com/the-blockchain-company/haskell.nix/archive/f081078fb528e568089324c663358d57a834a0ca.tar.gz") {
         nixpkgs = builtins.fetchTarball "https://github.com/NixOS/nixpkgs/archive/2255f292063ccbe184ff8f9b35ce475c04d5ae69.tar.gz";
         nixpkgsArgs = { system = k; };
       };
